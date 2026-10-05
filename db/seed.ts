@@ -1,5 +1,5 @@
 import { sql } from "drizzle-orm";
-import { getDb } from "../api/queries/connection";
+import { getDb } from "../server/queries/connection";
 import { blogPosts, seoSettings, siteContent } from "./schema";
 
 async function seed() {
